@@ -7,11 +7,16 @@ print(stack)
 
 print(stack)
 
-queue = [1,2,3,4]
+##queue = [1,2,3,4]
 
-queue.append(7)
-print(queue)
-queue.pop(0)
-print(queue)
-queue.insert(0,7)
-print(queue)
+from queue import Queue
+queue = Queue()
+
+queue.put(2)
+print(queue.queue)
+queue.put(3)
+print(queue.queue)
+queue.put(4)
+print(queue.queue)
+queue.get()
+print(queue.queue)
