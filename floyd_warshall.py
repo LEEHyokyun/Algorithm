@@ -10,6 +10,7 @@ graph = [
 
 def floydWarshall():
     d = [[0] * node for _ in range(node)]
+    print(d)
 
     for i in range(node):
         for j in range(node):
