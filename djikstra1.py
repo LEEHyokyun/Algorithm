@@ -47,5 +47,5 @@ def dijkstra(start):
                 distance[j] = distance[currentIndex] + graph[currentIndex][j]
 
 
-dijkstra(1)
+dijkstra(5)
 print((distance))
